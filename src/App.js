@@ -7,6 +7,7 @@ function App() {
     <NavBar />
     <Home />
     <Pricing />
+    <div></div>
     </di>
   )
 }

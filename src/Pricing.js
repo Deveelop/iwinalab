@@ -22,6 +22,7 @@ export default function Pricing() {
              <p>Per Year</p>
              <button>Order Now</button>
             </div>
+            <div></div>
         </div>
         
     )

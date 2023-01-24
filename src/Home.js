@@ -8,6 +8,7 @@ export default function Home() {
             <p>Find out about eco-packaging and labelling for your products</p>
             <p>Do you need need technological support like blockchain digital traceability</p>
         <button>Get Access Now</button>
+        <div></div>
         </div>
     )
 };

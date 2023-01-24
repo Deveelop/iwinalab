@@ -11,5 +11,5 @@ export default function NavBar() {
                 <li><a href="/account">My Account</a></li>
             </ul>
         </nav>
-    )
+    );
 };
