@@ -1,7 +1,7 @@
-
+import './Home.css'
 export default function Home() {
     return (
-        <div>
+        <div className="intro_home">
             <h1>An online compliance check for consumeable products</h1>
             <p>Find out about US and EU compliance requirement for your products</p>
             <p>Find product regulation in minutes</p>
