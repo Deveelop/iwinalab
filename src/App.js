@@ -1,14 +1,19 @@
 import NavBar from "./NavBar";
-import Home from "./Home";
-import Pricing from "./Pricing";
+import Home from "./pages/Home";
+import Pricing from "./pages/Pricing";
+import {Route, Routes} from "react-router-dom";
 function App() {
+
   return (
-    <di>
+    <>
     <NavBar />
-    <Home />
-    <Pricing />
-    <div></div>
-    </di>
+    <div className="contain">
+      <Routes>
+        <Route path="/" element={<Home  />} />
+        <Route path="/pricing" element={<Pricing />} />
+      </Routes>
+    </div>
+    </>
   )
 }
 
