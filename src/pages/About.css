@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    margin-top: 5%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  
+}
+.aheader{
+    text-align: center;
+    padding: 20px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0 2px 2px black;
+    margin-bottom: 60px;
+}
+img{
+    width: 100px;
+    border: 5px solid blueviolet;
+    border-radius: 500px;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+}
+
+.team__control{
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 10px;
+    line-height: 20px;
+    position: relative;
+}
+.team .team__control h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 26px;
+}
+.team .team__control p.role{
+    color: blueviolet;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
