@@ -1,8 +1,29 @@
 import './About.css';
 import img from './images/efosa.jpg'
+import Typography  from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
+import Box from '@material-ui/core/Box';
+import Container from '@material-ui/core/Container';
+
+function Copyright() {
+    return (
+      <Typography variant="body2" color="textSecondary" align="center">
+        {'Copyright © '}
+        <Link color="inherit" href="#">
+          iwina.com
+        </Link>{' '}
+        {new Date().getFullYear()}
+        {'.'}
+      </Typography>
+    );
+  }
+
+
+
 
 export default function About () {
     return (
+        <Container>
         <div>
             <div className='wrapper'>
          <h1 className='aheader'>Meet our team</h1>
@@ -49,5 +70,9 @@ export default function About () {
         </div>
         </div>
         </div>
+        <Box>
+            <Copyright />
+        </Box>
+        </Container>
     )
 }
